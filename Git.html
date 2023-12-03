@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="Css.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		header {
+			background-color: purple;
+			padding: 20px;
+			font-size: 25px;
+			border-radius: 0 0 15px 15px;
+			color: #FFF
+		}
+		.col-11 {
+			margin: auto;
+			background-color: lightgrey;
+			padding: 20px;
+			border-radius: 0 0 15px 15px;
+		}
+		.menu {
+		
+			text-align: center;
+			}	
+			.menu a { text-decoration: none;
+			 color: purple;
+			  margin-right: 20px
+			  ; transition: color 0.3s ease;
+			  }	
+			  .menu a:hover {
+			  	color: black;
+			  }	
+			  .FROG {
+			  	opacity: 0.5;
+			  }
+
+			  .col-3 aside {
+			  	background-color: purple;
+			  	border-radius: 20px;
+			  }
+			 aside ul {
+			 	list-style: none;
+			 	color: #FFF;
+			 	padding: 10px 0 10px 2rem;
+			 }
+			 aside ul li {
+			 	padding: 20px 0 20px 0;
+			 }
+			 aside ul li:hover {
+	background-color: gray;
+	width: 210px;
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+	border-radius: 15px;
+	cursor: pointer;}
+                         
+
+                  article {
+	             padding: 15px;
+	                   margin-top: 20px;
+	                     box-shadow: 10px 10px 10px 10px lightgray;
+	                        border-radius: 15px; }
+	                        .section {
+	                        	margin-top: 40px;
+	                        }
+	                        .programm {
+	                        	flex-wrap: wrap;
+	                        }
+	                        .section .darkred {
+	                 width: 150px;
+	                          height: 150px;
+	                       background-color: purple;
+	                  padding: 10px;
+	                    text-align: center;
+	                   color: #fff;
+	                     cursor: pointer;}
+	                     .section .darkred:hover {
+	                        background-color: darkorange;
+	                   padding: 10px;
+	                    cursor: pointer;}
+	                    .section .darkblue {
+	    width: 150px;
+	                   height: 150px;
+	                   background-color: darkblue;
+	              padding: 10px;
+	               text-align: center;
+	                 margin-bottom: 10px;
+	              color: #fff;
+	                  cursor: pointer;}
+            .section .darkblue:hover {
+	          background-color: darkorchid;
+	               padding: 10px;
+	             margin-bottom: 10px;
+	                    cursor: pointer;}
+	                    footer {
+	                    	background-color: purple;
+	                    	color: #FFF;
+	                    	font-size: 23px;
+	                    	border-radius: 20px 20px 0 0;
+	                    }
+
+
+	                </style>
+
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row text-center">
+			<div class="col-12">
+				<header>LINCODE</header>
+			</div>
+			
+		</div>
+		<div class="row m-auto">
+			<div class="col-11 text-center">
+				<nav class="menu"> 
+					<a href="#">Главная</a> 
+					<span class="menu-divider">						
+					</span> <a href="#">О нас</a>
+					 <span class="menu-divider">				 	
+					 </span>
+					 <span class="FROG">Документация</span>
+				</ul>
+
+			</div>
+			
+		</div>
+	</div>
+	<div class="container mt-5">
+		<div class="row m-auto">			
+			<div class="col-3">
+			<aside>
+				<ul>
+					<li>Курсы</li>
+					<li>Инструкция по обучению</li>
+					<li>Видеокурсы</li>
+					<li>Тесты</li>
+					<li>Сертификаты</li>
+				</ul>
+			</aside>
+			</div>
+			
+			<div class="col-8">
+				<main>
+					<div class="Slide">
+						<img width="840px" src="https://handsontable.com/blog/wp-content/uploads/2018/07/best-resources-to-learn-javascript.png" alt="">						
+					</div>
+					<article><b>LINCODE</b>- это онлайн курсы программирования, направленные на обучение Front-end разработке. В настоящее время в нашем дружном сообществе обучаются уже 4-5 студента и это только начало. Дальше-Больше. После обучения, наши студенты начинают работать над дипломными проектами, после сдачи дипломных работ, студенты отправляются на прохождение стажировки к нашим коллегам, где они будут набираться практического опыта на реальных коммерческих проектах и + будут зарабатывать свои первые деньги в роли front-end разработчиков.</article>
+					<section class="section">
+						<h2>Программа обучения</h2>
+						<hr>
+						<div class="d-flex justify-content-between programm">
+                <div class="darkred">HTML/CSS</div>
+                <div class="darkblue">HTML/CSS Pro</div>
+                <div class="darkred">CSS MODULE</div>
+                <div class="darkblue">FIGMA</div>
+                <div class="darkred">GIT</div>
+                <div class="darkblue">JAVASCRIPT</div>
+                <div class="darkred">REACT</div>
+                <div class="darkblue">REACT Pro</div>
+                <div class="darkred">TYPESCRIPT</div>
+                <div class="darkblue">SCSS</div>
+                <div class="darkred">NEXT.JS</div>
+              </div>
+						
+						
+					</section>
+				</main>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		
+			<footer class="p-4 text-center mt-4">
+		© LINCODE ONLINE COURSE CORPARATION
+		</footer>
+		
+	</div>
+</body>
+</html>
